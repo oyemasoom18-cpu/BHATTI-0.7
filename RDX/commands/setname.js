@@ -1,0 +1,39 @@
+﻿module.exports = {
+  config: { credits: "SARDAR RDX",
+    name: 'setname',
+    aliases: ['groupname', 'rename'],
+    description: "Change the name of the current group.",
+    usage: 'setname [new name]',
+    category: 'Group',
+    groupOnly: true,
+    prefix: true
+  },
+  
+  async run({ api, event, args, send, config }) {
+    const { threadID, senderID } = event;
+    
+    const threadInfo = await api.getThreadInfo(threadID);
+    const adminIDs = threadInfo.adminIDs.map(a => a.id);
+    
+    const isGroupAdmin = adminIDs.includes(senderID);
+    const isBotAdmin = config.ADMINBOT.includes(senderID);
+    
+    if (!isGroupAdmin && !isBotAdmin) {
+      return send.reply('Only group admins can change the group name.');
+    }
+    
+    const newName = args.join(' ');
+    
+    if (!newName) {
+      return send.reply('Please provide a new group name.');
+    }
+    
+    try {
+      await api.setTitle(newName, threadID);
+      return send.reply(`Group name changed to: ${newName}`);
+    } catch (error) {
+      return send.reply('Failed to change group name.');
+    }
+  }
+};
+

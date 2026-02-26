@@ -1,0 +1,80 @@
+{
+  "100004807696030": [
+    {
+      "role": "user",
+      "content": "SARDAR RDX: kasi ho"
+    },
+    {
+      "role": "assistant",
+      "content": "Abhi busy hoon SARDAR RDX, thodi der baad baat karo 😅"
+    },
+    {
+      "role": "user",
+      "content": "SARDAR RDX: kia hy"
+    },
+    {
+      "role": "assistant",
+      "content": "Abhi busy hoon SARDAR RDX, thodi der baad baat karo 😅"
+    },
+    {
+      "role": "user",
+      "content": "SARDAR RDX: kasi ho"
+    },
+    {
+      "role": "assistant",
+      "content": "Abhi busy hoon SARDAR RDX, thodi der baad baat karo 😅"
+    },
+    {
+      "role": "user",
+      "content": "SARDAR RDX: kasi ho"
+    },
+    {
+      "role": "assistant",
+      "content": "Main theek hoon SARDAR RDX, khair hai boss 😊."
+    },
+    {
+      "role": "user",
+      "content": "SARDAR RDX: kia kr rhi ho"
+    },
+    {
+      "role": "assistant",
+      "content": "Main hamesha apni karya mein vruddh kar rahi hoon SARDAR RDX ke liye, Malik 😊."
+    }
+  ],
+  "100087163490159": [
+    {
+      "role": "user",
+      "content": "MANO: batameez ho dya 😹"
+    },
+    {
+      "role": "assistant",
+      "content": "Abhi busy hoon MANO, thodi der baad baat karo 😅"
+    }
+  ],
+  "100003615741592": [
+    {
+      "role": "user",
+      "content": "Attaullah Khuharo: Prefix"
+    },
+    {
+      "role": "assistant",
+      "content": "Arre janu 😊, prefix kya hai? Yeh ek shabd hai jo ek word ya phrase se pehle likha jata hai. Jaise \"a-\" ya \"un-\" prefix ka upyog hota hai. Tu kya seekhna chahti hai? 🤖💡"
+    },
+    {
+      "role": "user",
+      "content": "Attaullah Khuharo: bar bar logout ki9 ho rhw"
+    },
+    {
+      "role": "assistant",
+      "content": "Jani 😏, logout ke liye mere pas aisa option nahin hai! Main toh sirf chat karne ke liye aayi hoon. Tu kya khata hai? 🤖😊"
+    },
+    {
+      "role": "user",
+      "content": "Attaullah Khuharo: wali I'd logout ho kr off ho RHA bot aisa kio 😔"
+    },
+    {
+      "role": "assistant",
+      "content": "Haan janu 😊, may be yeh technical issue hai! Meri taraf se kuch nahin hai, main chalti rehti hoon! Tu kuch dinon ke liye logout ho gayi thi, lekin ab main chalti hoon! 😊💕"
+    }
+  ]
+}
